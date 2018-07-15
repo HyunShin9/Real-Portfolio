@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang=en-us>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--BootStrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <!--CSS file-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!--jQuery link-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--Javascript file-->
+        <script src="assets/js/app.js"></script>
+        <!--FireBase-->
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <!--Interact-->
+        <script src="https://cdn.jsdelivr.net/npm/interactjs@1.3.4/dist/interact.min.js"></script>
+    </head>
+
+    <body>
+
+        <header id="Me">
+            <div class="row" id="mImage">
+                <div class= "col-md-12">
+                    <nav class="navbar navFlex" id="myNavbar">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Me">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#achievements">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mission">Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row" id="mImage">
+                <div class= "col-md-12 parallax">
+                    <h1 id="nameT">Hey, I'm Hyun Shin</h1>
+                </div>
+            </div>
+        </header>
+        
+        <section id="about">
+            <div class="row">
+                
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <h1>About Me</h1>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 notes">
+                    <p>Recently, I had the privilege to attend and graduate from the University Of Georgia, and there, I majored in Housing and successfully earned a bachelors by May 2018. 
+                    During my time within the college, I found a rising interest within the social branding that interconnects communities to their residents, and saw that the growing 
+                    storm of social media had vastly changed the platform of advertising and broadened the inter-relations between the principal and the agent. <br>As my studies grew more 
+                    austere I soon figured out how in depth the housing communities relied on websites and local data to make accurate predictions within the 
+                    market, and because of this, I was motivated to delve into web design. Durning the entry time of my finals, I enlisted into a coding boot camp hosted by, 
+                    none other than, Georgia Tech.
+                    
+                </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img class="history" src ="assets/images/arch.jpg">
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row" style="margin-top:40px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 notes">
+                    <p>While attending college, during my second year, I took a break to earn my real-estate license, and when I resumed my education, I found it rather challenging to 
+                        maintain my continuing education hours with the back and forth of the seminars I attended within the school. <br> However, through all of this, I found that I enjoyed 
+                        learning, and realized that we, as people, go through life while in a constant state of education. Now, when I finished college I made the choice to continue by 
+                        education by learning how to code because as Albert Einstein said, "Once you stop learning, you start dying".</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img class="history" src ="assets/images/real.jpg">
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </section>
+
+        <section id="achievements">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <h1>My Works</h1>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class = "workDisplay">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-2">
+                                    <img class="skills" src ="assets/images/html.png">
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 works">
+                                    <p>During my time at coding boot camp, I had the opportunity to create many works to demonstrate what I've learned.
+                                    One of these early projects was a word guessing game with a Pokemon theme. The example is <a href="https://hyunshin9.github.io/PokemonGame/">here</a>
+                                 </p>  
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-2">
+                                    <img class="skills" src ="assets/images/css.png">
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 works">
+                                    <p>After learning some firebase, and a handful of java script, there was an assignment to create a train game. This was where the application would
+                                            take in a user input, and store it into firebase; from there, it'd  spit out the data back to the user with a timer on when the next arrival
+                                            would be. I found this activity to be quite interesting, and thought that similar applications would be useful in a real time environment. 
+                                            The example is <a href="https://hyunshin9.github.io/Train-Time/">here</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-2">
+                                    <img class="skills" src ="assets/images/javascript.png">
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 works">
+                                    <p>In our first project, we created a website that let the user garner helpful information all from one source. In this assignment, I was tasked with
+                                        writing the ajax for the apis within the CO2, Space Events, and Space News sections. In addition I created an interactive quiz using interact.js, and as my role was java script 
+                                        heavy, I felt like I was lucky to be placed outside of my comfort zone. The example is <a href="https://homsau.github.io/State-of-the-World/index.html#top">here</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            
+        </section>
+
+        <section id="mission">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <h1>My Mission</h1>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                        <p stlye="text-align:center;">I strive to continually perform to the best of my abilities; learning and growing with the onset of failures and difficulties. 
+                            I work to rise through the times of technological advancement; keeping pace with the innovations of the future, and with a mind to better the fellow man.</p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" id="aQuestions">
+                    <div id= "question1">
+                        <h6>1. What else would you like to know?</h6>
+            
+                        <div id= "answer1a" class="draggable answer">What are your plans for the future?</div>
+                        <div id= "answer1b" class="draggable answer">Why did you get your real-estate license?</div>
+                        <div id= "answer1d" class="draggable answer correct">What kind of carrer are you looking for?</div>
+                        <div id= "answer1e" class="draggable answer">What inspires you to code?</div>
+            
+                    
+                        <div id="outer-dropzone" class="drop">
+                            Submit Answers Here!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            
+        </section>
+        <br><br>
+        <section id="contact">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" stlye="margin-right:200px;"></div>
+                <div class="col-md-2">
+                    <img class="icon" src ="assets/images/phone.png">
+                </div>   
+                <div class="col-md-2">
+                        <img class="icon" src ="assets/images/email.png">
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.linkedin.com/in/hyun-shin-63a294127"><img class="icon" src ="assets/images/in.png"></a>
+                </div>
+            </div>
+            <br><br>
+            <form>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="fName">Name</label>
+                            <input type="name" class="form-control" id="fName" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="fEmail">Email address</label>
+                            <input type="email" class="form-control" id="fEmail" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">  
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"> 
+                        <div class="form-group">
+                            <label for="fMessage">Message</label>
+                            <textarea class="form-control" placeholder="Your Message" id="fMessage" rows="5"></textarea>
+                            <button type="button" id="submit" class="btn" style="margin-bottom:40px;">Submit</button>
+                        </div>
+                    </div> 
+                    <div class="col-md-4"></div> 
+                    
+                </div>    
+            </form>
+
+            
+
+        </section>
+
+
+    </body>
+
+
+
+
+
+
+
+</html>

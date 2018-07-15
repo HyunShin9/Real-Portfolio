@@ -1,0 +1,155 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.mImage {
+    padding-right:0;
+    padding-left:0;
+    margin-right:0;
+    margin-left:0;
+}
+
+#Me {
+    z-index: 1;
+}
+#nameT{
+    z-index:10; 
+    border-style:none; 
+    color:white;
+}
+#about{  
+    background-color: rgb(199, 199, 199);
+    padding-bottom:80px;
+    width:100%;
+    
+}
+.navFlex {
+	position: fixed;
+	width: 100%;
+	background: #003366;
+	z-index: 1;
+	height: 60px;
+}
+.navFlex .nav {
+	margin: 0 auto;
+}
+.navFlex a { 
+	color: #fff;
+	-webkit-transition: all 3000ms;
+	transition: all 3000ms;
+}
+.navFlex a:hover {
+	color: #ccc;
+	-webkit-transition: all 3000ms;
+    transition: all 3000ms;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("../images/cool.jpg");
+  
+    /* Set a specific height */
+    height: 985px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#self{
+    width:100%;
+    height:985px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.history {
+    width:100%;
+    height:auto;
+    
+    
+}
+.skills {
+    width:100%;
+    height:auto;
+}
+h1{
+    border-style: none none dashed none;
+    border-width:5px;
+    border-color:#003366;
+    text-align:center;
+    padding-top:80px;
+    margin-bottom:100px;
+
+}
+#contact {
+    text-align:center;
+    
+}
+button{
+    background-color:#003366;
+    color:white;
+
+}
+.icon{
+    width:50px;
+    height:50px;
+}
+
+.works {
+    margin-bottom:40px;
+    border-style:solid;
+    border-width:2px;
+    padding-top:20px;
+    border-radius: 25px;
+}
+textarea {
+    margin-bottom:20px;
+}
+
+/* dropzone */
+#aQuestions{
+    text-align: center;
+}
+.drop{
+
+  background-color: grey;
+  border-color:black;
+  color:black;
+  border: dashed 4px transparent;
+  border-radius: 4px;
+  margin: 10px auto 30px auto;
+  padding: 10px;
+  transition: background-color 0.3s;
+  width: 50%;
+  padding: 10px;
+  height: 140px;
+
+}
+.drag-drop {
+    display: inline-block;
+    min-width: 40px;
+    padding: 2em 0.5em;
+  
+    color: #fff;
+    background-color: #29e;
+    border: solid 2px #fff;
+  
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  
+    transition: background-color 0.3s;
+  }
+
+.answer{
+  display: inline-block;
+  min-width: 40px;
+  padding: 2em 0.5em;
+  color: #fff;
+  border: solid 2px #fff;
+  background-color: rgb(9, 11, 112);
+}
+#question1{
+    margin-top:100px;
+}
