@@ -118,10 +118,19 @@ interact('.drop').dropzone({
         event.relatedTarget.classList.remove('can-drop');
     },
     ondrop: function (event) {
-        //if ($(event.relatedTarget).hasClass( "correct" ) ) {
-        //event.relatedTarget.textContent = 'Correct! Nice Job!';
-        //}
-        event.relatedTarget.textContent = 'This has not been implemented yet!';
+        if ($(event.relatedTarget).hasClass( "1" ) ) {
+        event.relatedTarget.textContent = 'For the future, I hope to get my foot into the programming industry, and continue learning different sections of the trade.';
+        }
+        else if ($(event.relatedTarget).hasClass( "2" ) ) {
+        event.relatedTarget.textContent = 'I earned my license around the end of my second year of college, and I acquired it with the hopes it would prepare me for the housing industry. But later, I found that my passions drove me down a different path, and now, the license serves as a stepping stone.';
+        }
+        else if ($(event.relatedTarget).hasClass( "3" ) ) {
+        event.relatedTarget.textContent = 'I am looking for a stable and fulfilling carrer that gives me many chances to grow my wealth of knowledge.';
+        }
+        else if ($(event.relatedTarget).hasClass( "4" ) ) {
+            event.relatedTarget.textContent = 'The thought of being LAZY. Basically, robots that do all of the work; I wish to be a part of that one day.';
+        }
+            
         
     },
     ondropdeactivate: function (event) {
