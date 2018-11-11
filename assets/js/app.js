@@ -122,13 +122,13 @@ interact('.drop').dropzone({
         event.relatedTarget.textContent = 'For the future, I hope to get my foot into the programming industry, and continue learning different sections of the trade.';
         }
         else if ($(event.relatedTarget).hasClass( "2" ) ) {
-        event.relatedTarget.textContent = 'I earned my license around the end of my second year of college, and I acquired it with the hopes it would prepare me for the housing industry. But later, I found that my passions drove me down a different path, and now, the license serves as a stepping stone.';
+        event.relatedTarget.textContent = 'The logical puzzles. I find it quite enjoyable to spend time with a task within code because it gives a lot of free space to experiment and fit the puzzles pieces as you desire.';
         }
         else if ($(event.relatedTarget).hasClass( "3" ) ) {
-        event.relatedTarget.textContent = 'I am looking for a stable and fulfilling carrer that gives me many chances to grow my wealth of knowledge.';
+        event.relatedTarget.textContent = 'I am looking for a stable and fulfilling career that gives me many chances to grow my wealth of knowledge.';
         }
         else if ($(event.relatedTarget).hasClass( "4" ) ) {
-            event.relatedTarget.textContent = 'The thought of being LAZY. Basically, robots that do all of the work; I wish to be a part of that one day.';
+            event.relatedTarget.textContent = 'Creative freedom. This outlet has been vastly different compared to my last field of study as it allows you to sell what you have created; putting more weight into the product';
         }
             
         
